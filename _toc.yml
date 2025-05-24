@@ -1,7 +1,7 @@
 format: jb-book
 root: index.md
 parts:
-  - caption: 示例部分
+  - caption: 示例部分1
     chapters:
       - file: 1_example_chapter/README.md
         sections:
@@ -16,3 +16,10 @@ parts:
         sections:
           - file: 2_example_chapter2/1_example_section2/README.md
       - file: 3_example_chapter3/README.md
+  - caption : 文本内容
+    chapters:
+        sections:
+            - file: contents/articles/xjtu_cooperation.md
+            - file: contents/articles/zstu_cooperation.md
+        sections:
+            - file: contents/notes/course_consulting.md
