@@ -1,12 +1,19 @@
 format: jb-book
 root: index.md
 parts:
-  - caption: 内容
-    chapters: 
-      - file: contents/articles/README.md
+- caption: 内容
+  chapters: 
+  - file: contents/articles/README.md
+    sections: 
+      - file: contents/articles/qtalliance/README.md
+        sections:
+        - file: contents/articles/qtalliance/xjtu.md
+        - file: contents/articles/qtalliance/zstu.md
+      - file: contents/articles/qtclass/README.md
+        sections:
+        - file: contents/articles/qtclass/programming_bootcamp​​.md
+  - file: contents/notes/README.md
+    sections: 
+      - file: contents/notes/quanttide/README.md
         sections: 
-          - file: contents/articles/xjtu_cooperation.md
-          - file: contents/articles/zstu_cooperation.md
-      - file: contents/notes/README.md
-        sections: 
-          - file: contents/notes/course_consulting.md
+        - file: contents/notes/quanttide/consulting_course_business.md
